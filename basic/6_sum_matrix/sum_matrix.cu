@@ -8,7 +8,7 @@ void sumMatrix2D_CPU(float * MatA,float * MatB,float * MatC,int nx,int ny)
   float * c=MatC;
   for(int j=0;j<ny;j++)
   {
-    for(int i=0;i<nx;i++)
+    for(int i=0;i<nx;i++)                  
     {
       c[i]=a[i]+b[i];
     }
